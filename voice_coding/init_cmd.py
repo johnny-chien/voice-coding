@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-INIT_MODEL = "gemini-3.0-flash"
+INIT_MODEL = "gemini-3-flash-preview"
 
 INIT_PROMPT = """\
 You are helping a developer set up voice-to-text for coding in their project.
