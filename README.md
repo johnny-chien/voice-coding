@@ -10,7 +10,7 @@ Private voice-to-text for developers. Hold a hotkey, speak, get text pasted into
 ## Install
 
 ```bash
-pip install speakandcode
+pip install speakcode
 ```
 
 ## Setup
@@ -40,7 +40,7 @@ Teach Voice Coding the vocabulary of any project you work on:
 
 ```bash
 cd /path/to/your/project
-voice learn
+speak learn
 ```
 
 This scans the repo (README, package.json, etc.) and merges its vocabulary into your global memory at `~/.voice-coding/memory.md`. Run it in each repo you work on — terms accumulate across projects.
@@ -56,7 +56,7 @@ Edit `~/.voice-coding/memory.md` anytime to add or fix terms.
 ## Usage
 
 ```bash
-voice
+speak
 ```
 
 **Hold Alt (⌥)** to start recording. **Release Alt** to stop, transcribe, and auto-paste into whichever app is focused.

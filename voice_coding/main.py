@@ -116,7 +116,7 @@ def _run_listener():
     )
     Quartz.CGEventTapEnable(tap, True)
 
-    print("Voice Coding running. Hold Alt to record. Release Alt to stop. Ctrl+C to quit.")
+    print("SpeakCode running. Hold Alt to record. Release Alt to stop. Ctrl+C to quit.")
 
     try:
         Quartz.CFRunLoopRun()

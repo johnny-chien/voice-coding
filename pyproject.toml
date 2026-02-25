@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "speakandcode"
+name = "speakcode"
 version = "0.1.0"
 description = "Private voice-to-text for developers. Hold a key, speak, get text pasted into any app."
 readme = "README.md"
@@ -38,7 +38,7 @@ Homepage = "https://github.com/johnny-chien/voice-coding"
 Repository = "https://github.com/johnny-chien/voice-coding"
 
 [project.scripts]
-voice = "voice_coding.main:main"
+speak = "voice_coding.main:main"
 
 [tool.setuptools.packages.find]
 include = ["voice_coding*"]
