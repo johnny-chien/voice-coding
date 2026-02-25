@@ -5,7 +5,7 @@ from google.genai import types
 
 from voice_coding.memory import load_memory
 
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-3.0-flash"
 
 BASE_PROMPT = (
     "Transcribe this audio exactly as spoken. Output ONLY the transcription text. "

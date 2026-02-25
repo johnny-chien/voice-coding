@@ -3,7 +3,7 @@
 Private voice-to-text for developers. Hold a hotkey, speak, get text pasted into any app.
 
 - **Private** — audio goes to Gemini Flash (your own API key), nowhere else
-- **Fast** — ~1 second transcription via Gemini 2.0 Flash
+- **Fast** — ~1 second transcription via Gemini 3.0 Flash
 - **Universal** — auto-pastes into any focused app: VS Code, Terminal, Slack, browser, etc.
 - **Coding-aware** — "dot env" → `.env`, "camel case foo bar" → `fooBar`
 
@@ -84,6 +84,6 @@ Voice Coding post-processes transcriptions with coding-aware rules:
 
 1. A macOS `CGEventTap` listens for the Alt key globally (works in any app, including VS Code)
 2. `sounddevice` captures mic audio at 16kHz mono while the hotkey is held
-3. Audio is sent to Gemini 2.0 Flash for transcription, with project vocabulary from `.voice-coding/memory.md` if present
+3. Audio is sent to Gemini 3.0 Flash for transcription, with project vocabulary from `.voice-coding/memory.md` if present
 4. Post-processor applies coding-aware text transforms
 5. Result is copied to clipboard via `pbcopy` and pasted via `osascript` Cmd+V simulation
