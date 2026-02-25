@@ -34,8 +34,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/johnny-chien/voice-coding"
-Repository = "https://github.com/johnny-chien/voice-coding"
+Homepage = "https://github.com/johnny-chien/speakcode"
+Repository = "https://github.com/johnny-chien/speakcode"
 
 [project.scripts]
 speak = "voice_coding.main:main"
